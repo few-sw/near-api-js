@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
+        "outDir": "./dist",
         "esModuleInterop": true,
+        "allowJs": true,
+        "checkJs": true,
         "module": "commonjs",
         "target": "es2015",
         "moduleResolution": "node",
@@ -36,8 +39,14 @@
             "packages/transactions",
             "packages/types",
             "packages/utils",
-            "packages/wallet-account"],
+            "packages/wallet-account"
+        ],
         "entryPointStrategy": "packages",
+        "excludeExternals": true,
+        // "darkHighlightTheme": "github-dark",
+        // "navigationLinks": {
+        //   "Github": "https://github.com/web3-storage/w3protocol"
+        // },
         // "plugin": [
         //     "docusaurus-plugin-typedoc", "typedoc-plugin-markdown"
         // ],
@@ -51,13 +60,13 @@
         //     "fullNames": true,
         //   }
         // "exclude": ["**/node_modules/**"],
-
         // "useTsLinkResolution": false,
         // "includes": ["packages/near-api-js", "packages/accounts", "packages/biometric-ed25519"],
     },
-    "include": ["packages/**/*.ts"]
+    "include": [
+        "packages/**/*.ts"
+    ]
 }
-
 // "typedocOptions": {
 //     "readme": "docs/README_TYPEDOC.md",
 //     "skipErrorChecking": true,
@@ -67,3 +76,4 @@
 //     "out": "docs",
 //     "exclude": "**/node_modules/**",
 // },
+// https://github.com/HipsterBrown/robo-wizard

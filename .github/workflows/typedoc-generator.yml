@@ -3,8 +3,7 @@ name: Deploy TypeDoc on GitHub pages
 on:
     push:
       branches:
-        -  typedoc-configuration
-        # master  
+        -  typedoc-test
 
 env:
   NODE_VERSION: 18.x
