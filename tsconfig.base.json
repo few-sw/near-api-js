@@ -19,7 +19,7 @@
     },
     "typedocOptions": {
         "entryPoints": ["packages"],
-        "entryPointStrategy": "expand",
-        "out": "docs",
+        "entryPointStrategy": "packages",
+        "out": "docusaurus-docs",
     },
 }

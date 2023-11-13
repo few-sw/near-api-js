@@ -7,7 +7,9 @@ node_modules
 *.map
 
 dist/
-
+docs/docusaurus-docs
+.docusaurus
+build
 # near-api-js files & coverage
 neardev/
 coverage/
