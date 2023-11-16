@@ -28,7 +28,7 @@ This class is not intended for use outside the browser. Without <code>window</co
 <div class="tsd-comment tsd-typography">
 <h4>See</h4><p><a href="https://docs.near.org/tools/near-api-js/quick-reference#wallet">https://docs.near.org/tools/near-api-js/quick-reference#wallet</a></p>
 
-<h4>Example</h4><pre><code class="language-js"><span class="hl-7">// create new WalletConnection instance</span><br/><span class="hl-4">const</span><span class="hl-1"> </span><span class="hl-6">wallet</span><span class="hl-1"> = </span><span class="hl-4">new</span><span class="hl-1"> </span><span class="hl-5">WalletConnection</span><span class="hl-1">(</span><span class="hl-2">near</span><span class="hl-1">, </span><span class="hl-3">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><br/><span class="hl-7">// If not signed in redirect to the NEAR wallet to sign in</span><br/><span class="hl-7">// keys will be stored in the BrowserLocalStorageKeyStore</span><br/><span class="hl-0">if</span><span class="hl-1">(!</span><span class="hl-2">wallet</span><span class="hl-1">.</span><span class="hl-5">isSignedIn</span><span class="hl-1">()) </span><span class="hl-0">return</span><span class="hl-1"> </span><span class="hl-2">wallet</span><span class="hl-1">.</span><span class="hl-5">requestSignIn</span><span class="hl-1">()</span>
+<h4>Example</h4><pre><code class="language-js"><span class="hl-7">// create new WalletConnection instance</span><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-3">wallet</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-2">WalletConnection</span><span class="hl-1">(</span><span class="hl-5">near</span><span class="hl-1">, </span><span class="hl-6">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><br/><span class="hl-7">// If not signed in redirect to the NEAR wallet to sign in</span><br/><span class="hl-7">// keys will be stored in the BrowserLocalStorageKeyStore</span><br/><span class="hl-4">if</span><span class="hl-1">(!</span><span class="hl-5">wallet</span><span class="hl-1">.</span><span class="hl-2">isSignedIn</span><span class="hl-1">()) </span><span class="hl-4">return</span><span class="hl-1"> </span><span class="hl-5">wallet</span><span class="hl-1">.</span><span class="hl-2">requestSignIn</span><span class="hl-1">()</span>
 </code><button>Copy</button></pre>
 </div></section>
 <section class="tsd-panel tsd-hierarchy">
@@ -36,7 +36,7 @@ This class is not intended for use outside the browser. Without <code>window</co
 <ul class="tsd-hierarchy">
 <li><span class="target">WalletConnection</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/wallet-account/src/wallet_account.ts#L66">wallet-account/src/wallet_account.ts:66</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/624b2dd/packages/wallet-account/src/wallet_account.ts#L66">wallet-account/src/wallet_account.ts:66</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -72,7 +72,7 @@ This class is not intended for use outside the browser. Without <code>window</co
 <h5><span class="tsd-kind-parameter">appKeyPrefix</span>: <span class="tsd-signature-type">string</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="_near_js_wallet_account.walletAccount.WalletConnection.html" class="tsd-signature-type tsd-kind-class">WalletConnection</a></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/wallet-account/src/wallet_account.ts#L92">wallet-account/src/wallet_account.ts:92</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/624b2dd/packages/wallet-account/src/wallet_account.ts#L92">wallet-account/src/wallet_account.ts:92</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member"><a id="account" class="tsd-anchor"></a>
@@ -85,7 +85,7 @@ This class is not intended for use outside the browser. Without <code>window</co
 <h4 class="tsd-returns-title">Returns <a href="_near_js_wallet_account.walletAccount.ConnectedWalletAccount.html" class="tsd-signature-type tsd-kind-class">ConnectedWalletAccount</a></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/wallet-account/src/wallet_account.ts#L282">wallet-account/src/wallet_account.ts:282</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/624b2dd/packages/wallet-account/src/wallet_account.ts#L282">wallet-account/src/wallet_account.ts:282</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getAccountId" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Account<wbr/>Id</span><a href="#getAccountId" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -95,11 +95,11 @@ This class is not intended for use outside the browser. Without <code>window</co
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 <div class="tsd-comment tsd-typography">
-<h4>Example</h4><pre><code class="language-js"><span class="hl-4">const</span><span class="hl-1"> </span><span class="hl-6">wallet</span><span class="hl-1"> = </span><span class="hl-4">new</span><span class="hl-1"> </span><span class="hl-5">WalletConnection</span><span class="hl-1">(</span><span class="hl-2">near</span><span class="hl-1">, </span><span class="hl-3">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><span class="hl-2">wallet</span><span class="hl-1">.</span><span class="hl-5">getAccountId</span><span class="hl-1">();</span>
+<h4>Example</h4><pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-3">wallet</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-2">WalletConnection</span><span class="hl-1">(</span><span class="hl-5">near</span><span class="hl-1">, </span><span class="hl-6">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><span class="hl-5">wallet</span><span class="hl-1">.</span><span class="hl-2">getAccountId</span><span class="hl-1">();</span>
 </code><button>Copy</button></pre>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/wallet-account/src/wallet_account.ts#L168">wallet-account/src/wallet_account.ts:168</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/624b2dd/packages/wallet-account/src/wallet_account.ts#L168">wallet-account/src/wallet_account.ts:168</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="isSignedIn" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Signed<wbr/>In</span><a href="#isSignedIn" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -109,11 +109,11 @@ This class is not intended for use outside the browser. Without <code>window</co
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 <div class="tsd-comment tsd-typography">
-<h4>Example</h4><pre><code class="language-js"><span class="hl-4">const</span><span class="hl-1"> </span><span class="hl-6">wallet</span><span class="hl-1"> = </span><span class="hl-4">new</span><span class="hl-1"> </span><span class="hl-5">WalletConnection</span><span class="hl-1">(</span><span class="hl-2">near</span><span class="hl-1">, </span><span class="hl-3">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><span class="hl-2">wallet</span><span class="hl-1">.</span><span class="hl-5">isSignedIn</span><span class="hl-1">();</span>
+<h4>Example</h4><pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-3">wallet</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-2">WalletConnection</span><span class="hl-1">(</span><span class="hl-5">near</span><span class="hl-1">, </span><span class="hl-6">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><span class="hl-5">wallet</span><span class="hl-1">.</span><span class="hl-2">isSignedIn</span><span class="hl-1">();</span>
 </code><button>Copy</button></pre>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/wallet-account/src/wallet_account.ts#L137">wallet-account/src/wallet_account.ts:137</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/624b2dd/packages/wallet-account/src/wallet_account.ts#L137">wallet-account/src/wallet_account.ts:137</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="isSignedInAsync" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Signed<wbr/>In<wbr/>Async</span><a href="#isSignedInAsync" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -123,11 +123,11 @@ This class is not intended for use outside the browser. Without <code>window</co
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography">
-<h4>Example</h4><pre><code class="language-js"><span class="hl-7">// on login callback page</span><br/><span class="hl-4">const</span><span class="hl-1"> </span><span class="hl-6">wallet</span><span class="hl-1"> = </span><span class="hl-4">new</span><span class="hl-1"> </span><span class="hl-5">WalletConnection</span><span class="hl-1">(</span><span class="hl-2">near</span><span class="hl-1">, </span><span class="hl-3">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><span class="hl-2">wallet</span><span class="hl-1">.</span><span class="hl-5">isSignedIn</span><span class="hl-1">(); </span><span class="hl-7">// false</span><br/><span class="hl-0">await</span><span class="hl-1"> </span><span class="hl-2">wallet</span><span class="hl-1">.</span><span class="hl-5">isSignedInAsync</span><span class="hl-1">(); </span><span class="hl-7">// true</span>
+<h4>Example</h4><pre><code class="language-js"><span class="hl-7">// on login callback page</span><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-3">wallet</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-2">WalletConnection</span><span class="hl-1">(</span><span class="hl-5">near</span><span class="hl-1">, </span><span class="hl-6">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><span class="hl-5">wallet</span><span class="hl-1">.</span><span class="hl-2">isSignedIn</span><span class="hl-1">(); </span><span class="hl-7">// false</span><br/><span class="hl-4">await</span><span class="hl-1"> </span><span class="hl-5">wallet</span><span class="hl-1">.</span><span class="hl-2">isSignedInAsync</span><span class="hl-1">(); </span><span class="hl-7">// true</span>
 </code><button>Copy</button></pre>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/wallet-account/src/wallet_account.ts#L151">wallet-account/src/wallet_account.ts:151</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/624b2dd/packages/wallet-account/src/wallet_account.ts#L151">wallet-account/src/wallet_account.ts:151</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="requestSignIn" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>request<wbr/>Sign<wbr/>In</span><a href="#requestSignIn" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -145,11 +145,11 @@ This class is not intended for use outside the browser. Without <code>window</co
 <div class="tsd-comment tsd-typography"></div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography">
-<h4>Example</h4><pre><code class="language-js"><span class="hl-4">const</span><span class="hl-1"> </span><span class="hl-6">wallet</span><span class="hl-1"> = </span><span class="hl-4">new</span><span class="hl-1"> </span><span class="hl-5">WalletConnection</span><span class="hl-1">(</span><span class="hl-2">near</span><span class="hl-1">, </span><span class="hl-3">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><span class="hl-7">// redirects to the NEAR Wallet</span><br/><span class="hl-2">wallet</span><span class="hl-1">.</span><span class="hl-5">requestSignIn</span><span class="hl-1">({ </span><span class="hl-2">contractId:</span><span class="hl-1"> </span><span class="hl-3">&#39;account-with-deploy-contract.near&#39;</span><span class="hl-1"> });</span>
+<h4>Example</h4><pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-3">wallet</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-2">WalletConnection</span><span class="hl-1">(</span><span class="hl-5">near</span><span class="hl-1">, </span><span class="hl-6">&#39;my-app&#39;</span><span class="hl-1">);</span><br/><span class="hl-7">// redirects to the NEAR Wallet</span><br/><span class="hl-5">wallet</span><span class="hl-1">.</span><span class="hl-2">requestSignIn</span><span class="hl-1">({ </span><span class="hl-5">contractId:</span><span class="hl-1"> </span><span class="hl-6">&#39;account-with-deploy-contract.near&#39;</span><span class="hl-1"> });</span>
 </code><button>Copy</button></pre>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/wallet-account/src/wallet_account.ts#L186">wallet-account/src/wallet_account.ts:186</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/624b2dd/packages/wallet-account/src/wallet_account.ts#L186">wallet-account/src/wallet_account.ts:186</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="requestSignTransactions" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>request<wbr/>Sign<wbr/>Transactions</span><a href="#requestSignTransactions" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -165,7 +165,7 @@ This class is not intended for use outside the browser. Without <code>window</co
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/wallet-account/src/wallet_account.ts#L214">wallet-account/src/wallet_account.ts:214</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/624b2dd/packages/wallet-account/src/wallet_account.ts#L214">wallet-account/src/wallet_account.ts:214</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="signOut" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>sign<wbr/>Out</span><a href="#signOut" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -175,11 +175,11 @@ This class is not intended for use outside the browser. Without <code>window</co
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 <div class="tsd-comment tsd-typography">
-<h4>Example</h4><pre><code class="language-ts"><span class="hl-2">walletConnection</span><span class="hl-1">.</span><span class="hl-5">signOut</span><span class="hl-1">();</span>
+<h4>Example</h4><pre><code class="language-ts"><span class="hl-5">walletConnection</span><span class="hl-1">.</span><span class="hl-2">signOut</span><span class="hl-1">();</span>
 </code><button>Copy</button></pre>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/wallet-account/src/wallet_account.ts#L274">wallet-account/src/wallet_account.ts:274</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/624b2dd/packages/wallet-account/src/wallet_account.ts#L274">wallet-account/src/wallet_account.ts:274</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -209,6 +209,7 @@ This class is not intended for use outside the browser. Without <code>window</co
 <div class="site-menu">
 <nav class="tsd-navigation"><a href="../index.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1"></use></svg><span>near-api-js</span></a>
 <ul class="tsd-small-nested-navigation" id="tsd-nav-container" data-base="..">
+<li><a href="../modules/near_api_js.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>near-api-js</a></li>
 <li><a href="../modules/_near_js_accounts.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@near-js/accounts</a></li>
 <li><a href="../modules/_near_js_biometric_ed25519.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@near-js/biometric-ed25519</a></li>
 <li><a href="../modules/_near_js_crypto.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@near-js/crypto</a></li>
