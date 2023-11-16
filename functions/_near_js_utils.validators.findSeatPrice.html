@@ -22,7 +22,7 @@
 <h1>Function findSeatPrice</h1></div>
 <section class="tsd-panel">
 <ul class="tsd-signatures">
-<li class="tsd-signature tsd-anchor-link" id="findSeatPrice"><span class="tsd-kind-call-signature">find<wbr/>Seat<wbr/>Price</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">validators</span>, <span class="tsd-kind-parameter">maxNumberOfSeats</span>, <span class="tsd-kind-parameter">minimumStakeRatio</span>, <span class="tsd-kind-parameter">protocolVersion</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/near_api_js.account.html#Account" class="tsd-signature-type tsd-kind-property">Account</a><a href="#findSeatPrice" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="findSeatPrice"><span class="tsd-kind-call-signature">find<wbr/>Seat<wbr/>Price</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">validators</span>, <span class="tsd-kind-parameter">maxNumberOfSeats</span>, <span class="tsd-kind-parameter">minimumStakeRatio</span>, <span class="tsd-kind-parameter">protocolVersion</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">BN</span><a href="#findSeatPrice" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Finds seat price given validators stakes and number of seats.
  Calculation follow the spec: <a href="https://nomicon.io/Economics/README.html#validator-selection">https://nomicon.io/Economics/README.html#validator-selection</a></p>
@@ -38,7 +38,7 @@
 <h5><span class="tsd-kind-parameter">minimumStakeRatio</span>: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">protocolVersion</span>: <span class="tsd-signature-type">number</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="../modules/near_api_js.account.html#Account" class="tsd-signature-type tsd-kind-property">Account</a></h4>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">BN</span></h4>
 <div class="tsd-comment tsd-typography">
 <h4>Params</h4><p>validators: current or next epoch validators.</p>
 
@@ -49,7 +49,7 @@
 <h4>Params</h4><p>protocolVersion: version of the protocol from genesis config</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/2a1c272/packages/utils/src/validators.ts#L12">validators.ts:12</a></li></ul></aside></li></ul></section></div>
+<li>Defined in <a href="https://github.com/few-sw/near-api-js/blob/9327416/packages/utils/src/validators.ts#L12">validators.ts:12</a></li></ul></aside></li></ul></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -67,7 +67,6 @@
 <div class="site-menu">
 <nav class="tsd-navigation"><a href="../index.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1"></use></svg><span>near-api-js</span></a>
 <ul class="tsd-small-nested-navigation" id="tsd-nav-container" data-base="..">
-<li><a href="../modules/near_api_js.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>near-api-js</a></li>
 <li><a href="../modules/_near_js_accounts.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@near-js/accounts</a></li>
 <li><a href="../modules/_near_js_biometric_ed25519.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@near-js/biometric-ed25519</a></li>
 <li><a href="../modules/_near_js_crypto.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>@near-js/crypto</a></li>
