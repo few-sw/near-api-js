@@ -1,5 +1,0 @@
-@near-js/keystores:lint:ts: cache hit, replaying output 406d431c12122bea
-@near-js/keystores:lint:ts: 
-@near-js/keystores:lint:ts: > @near-js/keystores@0.0.5 lint:ts /Users/mastropeado/projects/near/documentation/near-api-js/packages/keystores
-@near-js/keystores:lint:ts: > eslint -c ../../.eslintrc.ts.yml src/**/*.ts --no-eslintrc
-@near-js/keystores:lint:ts: 

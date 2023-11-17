@@ -1,5 +1,0 @@
-@near-js/crypto:lint:js: cache hit, replaying output 8b785101607c320d
-@near-js/crypto:lint:js: 
-@near-js/crypto:lint:js: > @near-js/crypto@0.0.5 lint:js /Users/mastropeado/projects/near/documentation/near-api-js/packages/crypto
-@near-js/crypto:lint:js: > eslint -c ../../.eslintrc.js.yml test/**/*.js --no-eslintrc
-@near-js/crypto:lint:js: 
