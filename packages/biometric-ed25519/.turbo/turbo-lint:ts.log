@@ -1,0 +1,11 @@
+@near-js/biometric-ed25519:lint:ts: cache hit, replaying output 4a89e4c8b8ab94a6
+@near-js/biometric-ed25519:lint:ts: 
+@near-js/biometric-ed25519:lint:ts: > @near-js/biometric-ed25519@0.4.0 lint:ts /Users/mastropeado/projects/near/documentation/near-api-js/packages/biometric-ed25519
+@near-js/biometric-ed25519:lint:ts: > eslint -c ../../.eslintrc.ts.yml src/**/*.ts --no-eslintrc
+@near-js/biometric-ed25519:lint:ts: 
+@near-js/biometric-ed25519:lint:ts: 
+@near-js/biometric-ed25519:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/biometric-ed25519/src/index.d.ts
+@near-js/biometric-ed25519:lint:ts:   3:36  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/biometric-ed25519:lint:ts: 
+@near-js/biometric-ed25519:lint:ts: ✖ 1 problem (0 errors, 1 warning)
+@near-js/biometric-ed25519:lint:ts: 

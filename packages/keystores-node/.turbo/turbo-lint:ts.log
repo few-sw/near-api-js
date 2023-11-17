@@ -1,0 +1,12 @@
+@near-js/keystores-node:lint:ts: cache hit, replaying output b27cb83276ee9b24
+@near-js/keystores-node:lint:ts: 
+@near-js/keystores-node:lint:ts: > @near-js/keystores-node@0.0.5 lint:ts /Users/mastropeado/projects/near/documentation/near-api-js/packages/keystores-node
+@near-js/keystores-node:lint:ts: > eslint -c ../../.eslintrc.ts.yml src/**/*.ts --no-eslintrc
+@near-js/keystores-node:lint:ts: 
+@near-js/keystores-node:lint:ts: 
+@near-js/keystores-node:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/keystores-node/src/unencrypted_file_system_keystore.ts
+@near-js/keystores-node:lint:ts:    8:24  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/keystores-node:lint:ts:   34:56  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/keystores-node:lint:ts: 
+@near-js/keystores-node:lint:ts: ✖ 2 problems (0 errors, 2 warnings)
+@near-js/keystores-node:lint:ts: 

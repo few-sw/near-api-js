@@ -1,0 +1,5 @@
+@near-js/providers:lint:js: cache hit, replaying output e74a9138ff4e9eb3
+@near-js/providers:lint:js: 
+@near-js/providers:lint:js: > @near-js/providers@0.0.7 lint:js /Users/mastropeado/projects/near/documentation/near-api-js/packages/providers
+@near-js/providers:lint:js: > eslint -c ../../.eslintrc.js.yml test/**/*.js --no-eslintrc
+@near-js/providers:lint:js: 

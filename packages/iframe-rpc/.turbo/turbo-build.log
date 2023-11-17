@@ -1,0 +1,6 @@
+[35m@near-js/iframe-rpc:build[0m: cache hit, replaying output [2m3b6b6a1dcb470287[0m
+[35m@near-js/iframe-rpc:build: [0m
+[35m@near-js/iframe-rpc:build: [0m> @near-js/iframe-rpc@0.0.2 build /Users/mastropeado/projects/near/documentation/near-api-js/packages/iframe-rpc
+[35m@near-js/iframe-rpc:build: [0m> tsc -p ./tsconfig.json
+[35m@near-js/iframe-rpc:build: [0m
+[35m@near-js/iframe-rpc:build: [0m ELIFECYCLE  Command failed.

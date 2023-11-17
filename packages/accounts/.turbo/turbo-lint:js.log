@@ -1,0 +1,5 @@
+@near-js/accounts:lint:js: cache hit, replaying output 9ddc5d67027edc0f
+@near-js/accounts:lint:js: 
+@near-js/accounts:lint:js: > @near-js/accounts@0.1.4 lint:js /Users/mastropeado/projects/near/documentation/near-api-js/packages/accounts
+@near-js/accounts:lint:js: > eslint -c ../../.eslintrc.js.yml test/**/*.js --no-eslintrc
+@near-js/accounts:lint:js: 

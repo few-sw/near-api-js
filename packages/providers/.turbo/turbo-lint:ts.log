@@ -1,0 +1,32 @@
+@near-js/providers:lint:ts: cache hit, replaying output 1a96ec3862355c14
+@near-js/providers:lint:ts: 
+@near-js/providers:lint:ts: > @near-js/providers@0.0.7 lint:ts /Users/mastropeado/projects/near/documentation/near-api-js/packages/providers
+@near-js/providers:lint:ts: > eslint -c ../../.eslintrc.ts.yml src/**/*.ts --no-eslintrc
+@near-js/providers:lint:ts: 
+@near-js/providers:lint:ts: 
+@near-js/providers:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/providers/src/exponential-backoff.ts
+@near-js/providers:lint:ts:   19:41  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts: 
+@near-js/providers:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/providers/src/fetch_json.ts
+@near-js/providers:lint:ts:   21:103  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts: 
+@near-js/providers:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/providers/src/json-rpc-provider.ts
+@near-js/providers:lint:ts:   147:55  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   173:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   174:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   184:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   185:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   215:63  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   244:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   245:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   261:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   262:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   278:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   279:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   296:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   297:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   315:44  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts:   316:43  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/providers:lint:ts: 
+@near-js/providers:lint:ts: ✖ 18 problems (0 errors, 18 warnings)
+@near-js/providers:lint:ts: 

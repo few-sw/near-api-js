@@ -1,0 +1,14 @@
+[32m@near-js/types:build[0m: cache hit, replaying output [2m0e516921dc547bac[0m
+[32m@near-js/types:build: [0m
+[32m@near-js/types:build: [0m> @near-js/types@0.0.4 build /Users/mastropeado/projects/near/documentation/near-api-js/packages/types
+[32m@near-js/types:build: [0m> pnpm compile
+[32m@near-js/types:build: [0m
+[32m@near-js/types:build: [0m
+[32m@near-js/types:build: [0m> @near-js/types@0.0.4 compile /Users/mastropeado/projects/near/documentation/near-api-js/packages/types
+[32m@near-js/types:build: [0m> tsc -p tsconfig.json
+[32m@near-js/types:build: [0m
+[32m@near-js/types:build: [0m../../node_modules/@types/eslint-scope/index.d.ts(2,25): error TS2307: Cannot find module 'estree' or its corresponding type declarations.
+[32m@near-js/types:build: [0m../../node_modules/@types/eslint/index.d.ts(3,25): error TS2307: Cannot find module 'estree' or its corresponding type declarations.
+[32m@near-js/types:build: [0m../../node_modules/@types/eslint/index.d.ts(4,29): error TS2307: Cannot find module 'json-schema' or its corresponding type declarations.
+[32m@near-js/types:build: [0m ELIFECYCLE  Command failed with exit code 2.
+[32m@near-js/types:build: [0m ELIFECYCLE  Command failed with exit code 1.

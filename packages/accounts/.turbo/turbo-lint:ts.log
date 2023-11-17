@@ -1,0 +1,44 @@
+@near-js/accounts:lint:ts: cache hit, replaying output 89ca548561a9a897
+@near-js/accounts:lint:ts: 
+@near-js/accounts:lint:ts: > @near-js/accounts@0.1.4 lint:ts /Users/mastropeado/projects/near/documentation/near-api-js/packages/accounts
+@near-js/accounts:lint:ts: > eslint -c ../../.eslintrc.ts.yml src/**/*.ts --no-eslintrc
+@near-js/accounts:lint:ts: 
+@near-js/accounts:lint:ts: 
+@near-js/accounts:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/accounts/src/account.ts
+@near-js/accounts:lint:ts:   115:25  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   135:39  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   157:58  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   161:36  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   511:32  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   544:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts: 
+@near-js/accounts:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/accounts/src/account_2fa.ts
+@near-js/accounts:lint:ts:   20:39  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   21:33  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   22:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   22:58  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   34:38  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   37:69  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts: 
+@near-js/accounts:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/accounts/src/account_multisig.ts
+@near-js/accounts:lint:ts:   29:21  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   30:41  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   32:69  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   72:23  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts: 
+@near-js/accounts:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/accounts/src/connection.ts
+@near-js/accounts:lint:ts:    8:30  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   21:28  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   51:31  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts: 
+@near-js/accounts:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/accounts/src/contract.ts
+@near-js/accounts:lint:ts:    14:51  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:    14:61  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:    16:25  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:    68:26  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:    71:22  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   193:59  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts:   240:51  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/accounts:lint:ts: 
+@near-js/accounts:lint:ts: ✖ 26 problems (0 errors, 26 warnings)
+@near-js/accounts:lint:ts: 

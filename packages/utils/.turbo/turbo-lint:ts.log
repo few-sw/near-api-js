@@ -1,0 +1,16 @@
+@near-js/utils:lint:ts: cache hit, replaying output 509f1ce81b4a1fb7
+@near-js/utils:lint:ts: 
+@near-js/utils:lint:ts: > @near-js/utils@0.0.4 lint:ts /Users/mastropeado/projects/near/documentation/near-api-js/packages/utils
+@near-js/utils:lint:ts: > eslint -c ../../.eslintrc.ts.yml src/**/*.ts --no-eslintrc
+@near-js/utils:lint:ts: 
+@near-js/utils:lint:ts: 
+@near-js/utils:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/utils/src/errors/errors.ts
+@near-js/utils:lint:ts:   1:37  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/utils:lint:ts: 
+@near-js/utils:lint:ts: /Users/mastropeado/projects/near/documentation/near-api-js/packages/utils/src/errors/rpc_errors.ts
+@near-js/utils:lint:ts:   16:33  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/utils:lint:ts:   19:56  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/utils:lint:ts:   28:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+@near-js/utils:lint:ts: 
+@near-js/utils:lint:ts: ✖ 4 problems (0 errors, 4 warnings)
+@near-js/utils:lint:ts: 

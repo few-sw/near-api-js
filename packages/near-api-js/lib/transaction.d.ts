@@ -1,0 +1,12 @@
+export { stringifyJsonOrBytes, Action, AccessKey, AccessKeyPermission, AddKey, CreateAccount, DeleteAccount, DeleteKey, DeployContract, FullAccessPermission, FunctionCall, FunctionCallPermission, Stake, Transfer, SCHEMA, createTransaction, signTransaction, Signature, SignedTransaction, Transaction, encodeSignedDelegate, encodeDelegateAction, } from '@near-js/transactions';
+import BN from 'bn.js';
+export declare const addKey: (publicKey: PublicKey, accessKey: AccessKey) => any;
+export declare const createAccount: () => any;
+export declare const deleteAccount: (beneficiaryId: string) => any;
+export declare const deleteKey: (publicKey: PublicKey) => any;
+export declare const deployContract: (code: Uint8Array) => any;
+export declare const fullAccessKey: () => any;
+export declare const functionCall: (methodName: string, args: object | Uint8Array, gas: BN, deposit: BN, stringify?: any, jsContract?: boolean) => any;
+export declare const functionCallAccessKey: (receiverId: string, methodNames: string[], allowance?: BN) => any;
+export declare const stake: (stake: BN, publicKey: PublicKey) => any;
+export declare const transfer: (deposit: BN) => any;
